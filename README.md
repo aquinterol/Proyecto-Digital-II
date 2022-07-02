@@ -44,6 +44,9 @@ UART | 0X82006000
 
 Este periferico funciona a partir de un controlador de pantalla de cristal líquido de matriz de puntos HD44780U y el controlador LSI los cuales muestran caracteres alfanuméricos y símbolos kana japoneses. En cuanto al modulo se encuentra mediante el codigo de VHDL realizando el borrado, inicialización y escritura. Mediante registros se realiza el cambio del dato a mostrar en pantalla.
 
+![image](https://user-images.githubusercontent.com/103794209/176986696-c240bcd6-f906-4dda-813a-d0b4f6a1227e.png)
+
+
 Para el proyecto su funcionalidad es ser la interfaz del usuario. Es decir dar la bienvenida al usuario, mostrar en que parte del proceso se va, mostrarle al mismo el tipo de residuo que fue ingresado y los puntos obtenidos. Con respecto al flujo de datos la funcionalidad de este es de salida puesto que muestra los datos mencionados anteriormente. 
 
 * Sensor Infrarrojo
@@ -58,6 +61,8 @@ Tiene con respecto al flujo de datos una funcionalidad de entrada de datos. Si d
 * Sensor Inductivo               
 
 Este sensor es capaz de detectar proximidad a cierta distancia sin necesidad de hacer contacto. Esto se da gracias a la emición de una señal magnética, razón por la cual puede detectar solamente objetos ferrosos, metales y/o conductores eléctricos. Su funcionamiento se basa en la teoría del campo magnético en la que fluye una corriente inducida llamada corriente de Foucault.
+
+![image](https://user-images.githubusercontent.com/103794209/176986673-e7cca09d-4a39-4a98-8807-d1018a34385e.png)
 
 Con respecto al flujo de datos la funcionalidad de este periférico es de entrada, indicando cuando el objeto a detectar es de metal. En este caso si detecta un metal el dato que da este sensor pasa a ser de 1 a 0. Permitiendo así con esta variable realizar los respectivos casos para el material.
 
@@ -77,6 +82,10 @@ La funcionalidad de este lector RFID en el proyecto es la de como lo indica su n
 Este periférico funciona a partir de un PWM o modulación por ancho de pulso con la cual se modula la señal que controla al servo. En este caso el servomotor a trabajar cuenta con un periodo de ancho de pulso de 20 ms, equivalente a un trabajo a 50 Hz. A su vez, este debe contar con un ciclo de trabajo de entre 1 y 2 ms dependiendo de  los grados que se desea que rote. 
 
 Para el proyecto su funcionalidad se encuentra relacionada de forma directa con la parte mecánica del dispositivo puesto que cada servo sera el encargado de abrir la compuerta respectiva al material del residuo introducido. Con respecto al flujo de datos la funcionalidad de este periférico es de salida. Puesto que a partir de los datos de los sensores se envía la respectiva instrucción o comando al servo motor para que deje caer el residuo en el espacio correspondiente. Cada servo tendrá 2 posiciones que se les irán indicando en el proceso puesto que manejan un sistema de compuertas en el que solo se desea tener estados de abierto o cerrado.
+
+                
+----
+                    
 
 ### Construcción del prototipo
 
