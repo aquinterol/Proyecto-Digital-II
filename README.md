@@ -11,10 +11,10 @@ Este repositorio contiene la entrega final del proyecto de la materia Electróni
 
 Se contará con una interfaz para la interacción del usuario con el sistema la cual le facilite a cada persona introducir su id mediante RFID y clasificar correctamente cada residuo. Esto se da mediante periféricos, el movimiento de estos dentro de la maquina a realizar se hace con servomotores. Se utilizan los lenguajes de programación: Verilog, VHDL, Python y C.
 
-###Objetivos
-####General
+### Objetivos
+#### General
 Desarrollar un dispositivo que permita la separación de residuos de manera automática, mejorando la recolección de desechos posconsumo generando efectos positivos en la conservación del medio ambiente
-####Específicos
+#### Específicos
  * Incentivar a la comunidad a realizar de forma recurrente la separación de residuos.
  * Mejorar los índices de aprovechamiento de residuos en Bogotá específicamente en el área de la Universidad Nacional de Colombia. 
  * Correcta integración entre distintos periféricos ya sean sensores, actuadores o transductores para la implementación de un prototipo funcional. 
