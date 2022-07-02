@@ -6,7 +6,7 @@ Integrantes:
 - Diana Patricia Cortes Nava
 
 
-#Propuesta
+Propuesta
 
 El sistema de los cajeros ecológicos consiste en la separación de 3 tipos de residuos (Plástico, metal y papel), esto se realizara mediante sensores que ayuden a detectar el tipo de material y a su vez realizar el conteo de objetos que va introduciendo el usuario; esto último para calcular el número de puntos que se le sumarán al registro del usuario. 
 
