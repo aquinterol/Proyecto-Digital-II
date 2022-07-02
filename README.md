@@ -11,6 +11,13 @@ Este repositorio contiene la entrega final del proyecto de la materia Electróni
 
 Se contará con una interfaz para la interacción del usuario con el sistema la cual le facilite a cada persona introducir su id mediante RFID y clasificar correctamente cada residuo. Esto se da mediante periféricos, el movimiento de estos dentro de la maquina a realizar se hace con servomotores. Se utilizan los lenguajes de programación: Verilog, VHDL, Python y C.
 
+### Módulos
 
 Para llevar a cabo este proyecto se implementaron varios perifericos integrados de la siguiente manera:
 ![Bloques dig 2 (2)](https://user-images.githubusercontent.com/103794195/176984134-97b0900b-914f-47d8-8731-c13d29d31bee.png)
+
+* LCD
+* RFID
+* Sensor optico
+* Sensor inductivo
+* Servomotor
