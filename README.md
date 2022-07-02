@@ -50,6 +50,8 @@ Para el proyecto su funcionalidad es ser la interfaz del usuario. Es decir dar l
 
 Este sensor puede detectar objetos utilizando medios ópticos, en este caso mediante luz infrarroja. En este caso se tiene el LED de un sensor como fuente emisora y el fototransistor del otro como receptor, es decir se hace una detección de reflexión directa. Por esta razón los elementos a detectar dependen del nivel de trasparencia del material, por lo mismo solo dara une entrada correcta cuando se tenga un material con trasparencia como el plastico. 
 
+![image](https://user-images.githubusercontent.com/103794209/176986630-c8bde966-0066-499f-977b-cae0f649ebd4.png)
+
 Tiene con respecto al flujo de datos una funcionalidad de entrada de datos. Si detecta un material el dato que da este sensor pasa a ser de 1 a 0. Permitiendo así con esta variable realizar los respectivos casos para el material.
 
 
