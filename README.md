@@ -32,10 +32,16 @@ Inductivo  | 0X82004000
 LCD | 0X82006800
 UART | 0X82006000
 
-
+                
+----
+                    
                 
 
 ### Periféricos
+
+####Ordered list
+                
+
 
 * RFID 
 
