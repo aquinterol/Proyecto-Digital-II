@@ -47,8 +47,17 @@ Este periferico funciona a partir de un controlador de pantalla de cristal líqu
 Para el proyecto su funcionalidad es ser la interfaz del usuario. Es decir dar la bienvenida al usuario, mostrar en que parte del proceso se va, mostrarle al mismo el tipo de residuo que fue ingresado y los puntos obtenidos. Con respecto al flujo de datos la funcionalidad de este es de salida puesto que muestra los datos mencionados anteriormente. 
 
 * Sensor Infrarrojo
+
+Este sensor puede detectar objetos utilizando medios ópticos, en este caso mediante luz infrarroja. En este caso se tiene el LED de un sensor como fuente emisora y el fototransistor del otro como receptor, es decir se hace una detección de reflexión directa. Por esta razón los elementos a detectar dependen del nivel de trasparencia del material, por lo mismo solo dara une entrada correcta cuando se tenga un material con trasparencia como el plastico. 
+
+Tiene con respecto al flujo de datos una funcionalidad de entrada de datos. Si detecta un material el dato que da este sensor pasa a ser de 1 a 0. Permitiendo así con esta variable realizar los respectivos casos para el material.
+
+
 * Sensor Inductivo               
 
+Este sensor es capaz de detectar proximidad a cierta distancia sin necesidad de hacer contacto. Esto se da gracias a la emición de una señal magnética, razón por la cual puede detectar solamente objetos ferrosos, metales y/o conductores eléctricos. Su funcionamiento se basa en la teoría del campo magnético en la que fluye una corriente inducida llamada corriente de Foucault.
+
+Con respecto al flujo de datos la funcionalidad de este periférico es de entrada, indicando cuando el objeto a detectar es de metal. En este caso si detecta un metal el dato que da este sensor pasa a ser de 1 a 0. Permitiendo así con esta variable realizar los respectivos casos para el material.
 
 * RFID 
 
