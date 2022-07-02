@@ -39,8 +39,15 @@ UART | 0X82006000
 
 ### Periféricos
 
-####Ordered list
-                
+
+* LCD 
+
+Este periferico funciona a partir de un controlador de pantalla de cristal líquido de matriz de puntos HD44780U y el controlador LSI los cuales muestran caracteres alfanuméricos y símbolos kana japoneses. En cuanto al modulo se encuentra mediante el codigo de VHDL realizando el borrado, inicialización y escritura. Mediante registros se realiza el cambio del dato a mostrar en pantalla.
+
+Para el proyecto su funcionalidad es ser la interfaz del usuario. Es decir dar la bienvenida al usuario, mostrar en que parte del proceso se va, mostrarle al mismo el tipo de residuo que fue ingresado y los puntos obtenidos. Con respecto al flujo de datos la funcionalidad de este es de salida puesto que muestra los datos mencionados anteriormente. 
+
+* Sensor Infrarrojo
+* Sensor Inductivo               
 
 
 * RFID 
