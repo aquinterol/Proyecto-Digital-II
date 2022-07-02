@@ -15,8 +15,22 @@ Se contará con una interfaz para la interacción del usuario con el sistema la 
 Para llevar a cabo este proyecto se implementaron varios perifericos integrados de la siguiente manera:
 ![Bloques dig 2 (2)](https://user-images.githubusercontent.com/103794195/176984134-97b0900b-914f-47d8-8731-c13d29d31bee.png)
 
+                    
+###Mapa de memoria
 
-### Mapa de Memoria
+En este caso  el mapa de memoria nos indica la posición en memoria de cada periferico. Este se encuentra de manera detallada en el archivo Soc_MemoryMap.csv, las bases correspondientes para cada driver del SoC son las siguientes:
+                    
+Periferico  | Dirección Base
+------------- | -------------
+PWMUS  | 0X82005000
+Boton | 0X82004800
+Infrarrojo  | 0X82003800
+Inductivo  | 0X82004000
+LCD | 0X82006800
+UART | 0X82006000
+
+
+                
 
 ### Periféricos
 
